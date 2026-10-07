@@ -1,0 +1,16 @@
+# Dataset paths (Update 'D:/SIH/combined_underwater_balanced' to your Linux path if running on Ubuntu)
+path: D:/SIH/combined_underwater_balanced
+train: train/images
+val: valid/images
+
+nc: 8
+
+names:
+  0: garbage
+  1: fish
+  2: jellyfish
+  3: rock and icebergs
+  4: puffin
+  5: shark
+  6: starfish
+  7: stingray
